@@ -14,28 +14,28 @@
 		<div class="standart_wrap">
 			<div class="row" id="auto_open">
 				<div class="col-xs-6 gallery">
-					<img src="/images/car3.jpg" class="main" />
+					<a href="/images/car1_big.jpg" class="main_href"><img src="/images/car3.jpg" class="main" /></a>
 					<div class="other">
 						<div class="row">
 							<div class="col-xs-4">
-								<a href="/images/car3.jpg"><img src="/images/carmin.jpg" /></a>
+								<a href="/images/car3.jpg" data-big="/images/car1_big.jpg"><img src="/images/carmin.jpg" /></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="/images/carcar.jpg"><img src="/images/carmin2.jpg" /></a>
+								<a href="/images/carcar.jpg" data-big="/images/car2_big.jpg"><img src="/images/carmin2.jpg" /></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="/images/car3.jpg"><img src="/images/carmin.jpg" /></a>
+								<a href="/images/car3.jpg" data-big="/images/car1_big.jpg"><img src="/images/carmin.jpg" /></a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-xs-4">
-								<a href="/images/carcar.jpg"><img src="/images/carmin2.jpg" /></a>
+								<a href="/images/carcar.jpg" data-big="/images/car2_big.jpg"><img src="/images/carmin2.jpg" /></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="/images/car3.jpg"><img src="/images/carmin.jpg" /></a>
+								<a href="/images/car3.jpg" data-big="/images/car1_big.jpg"><img src="/images/carmin.jpg" /></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="/images/carcar.jpg"><img src="/images/carmin2.jpg" /></a>
+								<a href="/images/carcar.jpg" data-big="/images/car2_big.jpg"><img src="/images/carmin2.jpg" /></a>
 							</div>
 						</div>
 					</div>
@@ -149,63 +149,65 @@
 				</div>
 			</div>
 			<div class="auction_list">
-				<h2>Перевод аукционного листа</h2>
-				<table>
-					<tr>
-						<th>Состояние</th>
-						<td>Инфа</td>
-						<th>Коробка передач</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Комплектация</th>
-						<td>Инфа</td>
-						<th>Включено цена</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Название машины</th>
-						<td>Инфа</td>
-						<th>Есть установленная дата</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Топливо</th>
-						<td>Инфа</td>
-						<th>История автомобиля</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Оценка</th>
-						<td>Инфа</td>
-						<th>Количество проведений</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Место проведения name</th>
-						<td>Инфа</td>
-						<th>Пробег</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Объем двигателя</th>
-						<td>Инфа</td>
-						<th>Цвет</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Кондиционер</th>
-						<td>Инфа</td>
-						<th>Год</th>
-						<td>Инфа</td>
-					</tr>
-					<tr>
-						<th>Оборудование</th>
-						<td>Инфа</td>
-						<th>Full model name</th>
-						<td>Инфа</td>
-					</tr>
-				</table>
+				<button>Перевод аукционного листа</button>
+				<div class="displaynone">
+					<table>
+						<tr>
+							<th>Состояние</th>
+							<td>Инфа</td>
+							<th>Коробка передач</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Комплектация</th>
+							<td>Инфа</td>
+							<th>Включено цена</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Название машины</th>
+							<td>Инфа</td>
+							<th>Есть установленная дата</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Топливо</th>
+							<td>Инфа</td>
+							<th>История автомобиля</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Оценка</th>
+							<td>Инфа</td>
+							<th>Количество проведений</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Место проведения name</th>
+							<td>Инфа</td>
+							<th>Пробег</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Объем двигателя</th>
+							<td>Инфа</td>
+							<th>Цвет</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Кондиционер</th>
+							<td>Инфа</td>
+							<th>Год</th>
+							<td>Инфа</td>
+						</tr>
+						<tr>
+							<th>Оборудование</th>
+							<td>Инфа</td>
+							<th>Full model name</th>
+							<td>Инфа</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6">

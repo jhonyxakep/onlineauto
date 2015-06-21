@@ -31,9 +31,11 @@ $(function(){
 
 	$('#auto_open .white table.prices button.question').tooltip();
 
-	$('#auto_open .gallery a').click(function(){
+	$('#auto_open .gallery .other a').click(function(){
 		var href = $(this).attr('href');
+		var big = $(this).data('big');
 		$('#auto_open .gallery img.main').attr('src', href);
+		$('#auto_open .gallery a.main_href').attr('href', big);
 		return false;
 	});
 
@@ -56,4 +58,11 @@ $(function(){
 		});
 		event.preventDefault();
 	});
+
+	$('.auction_list button').click(function(){
+		$(this).toggleClass('active').next().slideToggle();
+		return false;
+	});
+
+	$('#auto_open .gallery a.main_href').fancybox();
 });
