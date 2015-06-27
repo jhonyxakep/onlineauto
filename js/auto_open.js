@@ -31,14 +31,6 @@ $(function(){
 
 	$('#auto_open .white table.prices button.question').tooltip();
 
-	$('#auto_open .gallery .other a').click(function(){
-		var href = $(this).attr('href');
-		var big = $(this).data('big');
-		$('#auto_open .gallery img.main').attr('src', href);
-		$('#auto_open .gallery a.main_href').attr('href', big);
-		return false;
-	});
-
 	$('#auto_open button.want').click(function(){
 		$.fancybox({
 			content: $('#not_register_want'), 
@@ -64,5 +56,5 @@ $(function(){
 		return false;
 	});
 
-	$('#auto_open .gallery a.main_href').fancybox();
+	$('#auto_open .gallery a[rel="main_gallery"]').fancybox();
 });
