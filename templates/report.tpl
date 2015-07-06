@@ -58,7 +58,7 @@
 					<div class="white_wrapper">
 						<form action="#">
 							<div class="row">
-								<div class="col-xs-4">
+								<div class="col-xs-5">
 									<label for="car_id">Гос. номер автомобиля</label>
 								</div>
 								<div class="col-xs-4">
@@ -69,10 +69,13 @@
 								<div class="col-xs-4">
 									<input maxlength="6" id="car_id" name="car_id" placeholder="x123xx" /><input maxlength="3" id="car_region" name="car_region" placeholder="125" />
 								</div>
+								<div class="col-xs-1">
+                                					<h2> ИЛИ </h2>
+								</div>
 								<div class="col-xs-4">
 									<input maxlength="17" id="car_vin" name="car_vin" placeholder="XXXXXXXXXXXXXXXXX" />
 								</div>
-								<div class="col-xs-4">
+								<div class="col-xs-3">
 									<button>Найти историю</button>
 								</div>
 							</div>
